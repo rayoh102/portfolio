@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "CS student at UW", "Software Engineer", "Fullstack Development" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,10 +56,11 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Ray`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Software Engineer", "Fullstack Engineer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hey I'm Ray!`}</h1>
+                <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "CS student at UW", "Software Engineer", "Fullstack Development" ]'><span className="wrap">{text}</span></span></h1>
                   <p>
                   I'm a computer science student with a passion for developing innovative software applications.
-                  I'm currently pursuing my Bachelor's degree in Computer Science from the University of Washington and I’m expected to graduate in June 2024.
+                  I'm currently pursuing my Bachelor's degree in Computer Science from the University of Washington Seattle and I’m expected to graduate in June 2024.
                   </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
