@@ -95,7 +95,7 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 24%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -268,7 +268,7 @@ nav.navbar h1 {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #b8b8b8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -276,17 +276,12 @@ nav.navbar h1 {
 }
 
 .banner a {
-  color: #B8B8B8;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  width: 96%;
   text-decoration: none;
 }
 
 .banner button {
   font-weight: 700;
-  color: #fff;
+  color: #ffffff;
   border: 1px solid #fff;
   padding: 18px 34px;
   font-size: 18px;
@@ -310,7 +305,7 @@ nav.navbar h1 {
   transition: 0.3s ease-in-out;
 }
 .banner button:hover {
-  color: #121212;
+  color: #a72dee;
 }
 .banner button:hover::before {
 	content: "";
@@ -319,9 +314,7 @@ nav.navbar h1 {
 	position: absolute;
 }
 
-.banner img {
-  animation: updown 3s linear infinite;
-}
+
 @keyframes updown {
     0% {
         transform: translateY(-20px);

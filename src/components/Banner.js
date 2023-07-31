@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import resume from "../assets/img/resume.pdf"
+import profilePic from "../assets/img/me.png"
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -64,18 +65,15 @@ export const Banner = () => {
                   I'm currently pursuing my Bachelor's degree in Computer Science from the University of Washington Seattle and I’m expected to graduate in June 2024.
                   </p>
                   <span>
-                  <button className="vvd"><a target="_blank" href={resume}>Check out my Resume!</a></button>
+                    <a target="_blank" href={resume}>
+                      <button className="vvd" target="_blank" href={resume}>Check out my Resume!</button>
+                    </a>
                   </span>
               </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
-                </div>}
-            </TrackVisibility>
+            <img src={profilePic} alt="Header Img"/>
           </Col>
         </Row>
       </Container>
