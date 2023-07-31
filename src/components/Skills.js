@@ -1,6 +1,12 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import skill1 from "../assets/img/skill1.svg";
+import skill2 from "../assets/img/skill2.svg";
+import skill3 from "../assets/img/skill3.svg";
+import skill4 from "../assets/img/skill4.svg";
+import skill5 from "../assets/img/skill5.svg";
+import skill6 from "../assets/img/skill6.svg";
+import skill7 from "../assets/img/skill7.svg";
+import skill8 from "../assets/img/skill8.svg";
+import skill9 from "../assets/img/skill9.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -38,39 +44,39 @@ export const Skills = () => {
                         <p>My areas of expertise include the following: </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={skill1} alt="Image" />
                                 <h5>Frontend Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={skill2} alt="Image" />
                                 <h5>Backend Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={skill3} alt="Image" />
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={skill4} alt="Image" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={skill5} alt="Image" />
                                 <h5>C#</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={skill6} alt="Image" />
                                 <h5>Java</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={skill7} alt="Image" />
                                 <h5>Javascript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={skill8} alt="Image" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={skill9} alt="Image" />
                                 <h5>Angular</h5>
                             </div>
                         </Carousel>
