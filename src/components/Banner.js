@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
+import resume from "../assets/img/resume.pdf"
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -62,7 +63,9 @@ export const Banner = () => {
                   I'm a computer science student with a passion for developing innovative software applications.
                   I'm currently pursuing my Bachelor's degree in Computer Science from the University of Washington Seattle and I’m expected to graduate in June 2024.
                   </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <span>
+                  <button className="vvd"><a target="_blank" href={resume}>Check out my Resume!</a></button>
+                  </span>
               </div>}
             </TrackVisibility>
           </Col>
