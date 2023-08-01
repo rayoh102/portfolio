@@ -69,7 +69,21 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Costco IT - Full Stack Software Development Internship</p>
+                      <ul>
+                        <li>Supported the development of the new Costco Membership Global (MGLO) system in an Agile Scrum Team by resolving user stories, tasks, and bugs</li>
+                        <li>Improved code quality of RESTful APIs by implementing logging, stylistic, and readability enhancements</li>
+                      </ul>
+                      <p>Phenomena - Software Engineer Internship</p>
+                      <ul>
+                        <li>Developed 6 interactive digital experiences that communicate STEM concepts to middle and high school students</li>
+                        <li>Created features and solved bug fixes in javascript for Phenomena’s block-based coding system</li>
+                      </ul>
+                      <p>Hiscore Learning Center / Educator</p>
+                      <ul>
+                        <li>Taught English, math, and programming concepts to elementary and middle school students</li>
+                        <li>Designed lesson plans/tests and created multi-step problems for students</li>
+                      </ul>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <Row>
