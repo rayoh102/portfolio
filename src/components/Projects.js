@@ -20,31 +20,37 @@ export const Projects = () => {
       title: "Flight Service | CSE 344 - University of Washington",
       description: "Designed a database using SQL Azure server for a flight booking system, Implemented the flight booking application that allows users to create an account, log in, make reservations, pay, and more using Java and SQL",
       imgUrl: projImg1,
+      githubUrl: "https://github.com/rayoh102/Flights-App",
     },
     {
       title: "Sorting Visualizer | Personal Project ",
       description: "Designed a web application that visually showcases different sorting algorithms in action using HTML, CSS, JS",
       imgUrl: projImg2,
+      githubUrl: "https://github.com/rayoh102/SortingVisualizer.github.io",
     },
     {
       title: "Campus Paths | CSE 331 - University of Washington",
       description: "Designed, implemented, tested, and optimized a directed, labeled graph ADT that stimulated UW Campus and allowed clients to find the shortest path between two buildings using Djikstra’s pathfinding algorithm",
       imgUrl: projImg3,
+      githubUrl: "https://github.com/rayoh102/Software-Design-and-Implementation/tree/master/hw-campuspaths",
     },
     {
       title: "Tower Defense Game",
       description: "Designed a Poekon version Tower Defense Game modeled after the Bloons Tower Defense using python and pygame",
       imgUrl: projImg4,
+      githubUrl: "https://github.com/rayoh102/Tower-Defense",
     },
     {
       title: "Pokedex",
       description: "Designed a pokedex using the RESTful Pokemon API for my Creative Assignment for CSE 154",
       imgUrl: projImg5,
+      githubUrl: "https://github.com/rayoh102/Pokedex-Creative-Project",
     },
     {
       title: "To-do list",
       description: "Created a to-do list to start learning HTML, CSS, JS",
       imgUrl: projImg6,
+      githubUrl: "https://github.com/rayoh102/to-do-list",
     },
   ];
 

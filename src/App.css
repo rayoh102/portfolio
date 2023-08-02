@@ -474,6 +474,16 @@ nav.navbar h1 {
   top: 50%;
   opacity: 1;
 }
+
+.proj-txtx a {
+  color: rgb(255, 255, 255); /* Default color */
+  text-decoration: none;
+}
+
+.proj-txtx a:hover {
+  color: rgb(77, 174, 253);
+}
+
 .proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
