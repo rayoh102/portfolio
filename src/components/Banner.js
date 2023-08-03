@@ -66,7 +66,7 @@ export const Banner = () => {
                   </p>
                   <br></br>
                   <span>
-                    <a target="_blank" href={resume}>
+                    <a target="_blank" href={resume} rel="noreferrer">
                       <button className="vvd" target="_blank" href={resume}>Check out my Resume!</button>
                     </a>
                   </span>
@@ -74,7 +74,7 @@ export const Banner = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={profilePic} alt="Header Img"/>
+            <img src={profilePic} alt="profile img"/>
           </Col>
         </Row>
       </Container>
