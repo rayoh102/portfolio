@@ -52,7 +52,7 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a target="_blank" href="https://www.linkedin.com/in/ray-oh"><img src={navIcon1} alt="" /></a>
                 <a target="_blank" href="https://github.com/rayoh102"><img src={navIcon2} alt="" /></a>
-                <a target="_blank" href="mailto:rayoh101@uw.edu"><img src={navIcon3} alt="" /></a>
+                <a target="_blank" href="mailto:rayoh7@gmail.com"><img src={navIcon3} alt="" /></a>
               </div>
             </span>
           </Navbar.Collapse>
