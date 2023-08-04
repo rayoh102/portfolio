@@ -98,7 +98,7 @@ export const Projects = () => {
                           <p>Phenomena - Software Engineer Internship</p>
                         </div>
                         <div class ="rightContent">
-                          <p>June 2023 - September 2023</p>
+                          <p>November 2022 - February 2023</p>
                           <ul>
                             <li>Developed 6 interactive digital experiences that communicate STEM concepts to middle and high school students</li>
                             <li>Created features and solved bug fixes in javascript for Phenomena’s block-based coding system</li>
